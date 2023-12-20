@@ -1,0 +1,7 @@
+doc/
+bin/
+.vscode/
+lib/javafx-sdk-20.0.1/
+lib/javafx-sdk-17/
+.classpath
+.project

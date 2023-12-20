@@ -1,0 +1,4 @@
+Chasse au Monstre: shoot(nbRows: int, nbCols: int)
+
+Coordinate tir = new Coordinate(nbRows, nbCols)
+notifyObservers(tir)

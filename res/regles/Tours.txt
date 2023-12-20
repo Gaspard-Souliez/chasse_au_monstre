@@ -1,0 +1,20 @@
+Tour de jeu : Phase monstre
+
+Au début de la partie : lors du tour n°1, le monstre prend position sur l’entrée
+du labyrinthe et marque sa case avec un 1 (ce qui signifie qu'il était sur cette case lors
+du premier tour de jeu). Ensuite, à chaque tour de jeu, le monstre a l’obligation
+de se déplacer sur une case adjacente qui n’est pas occupée par un obstacle,
+et de marquer cette case avec l’entier correspondant au tour de jeu. Une case
+adjacente est une case située autour de la case du monstre (au-dessus, en-dessous,
+à droite, gauche, voire en diagonale selon les règles).
+
+
+Tour de jeu : Phase chasseur
+
+Le chasseur choisit une des cases de l’espace de jeu et “tire” dessus. Il apprend
+ainsi l’état de la case : jamais explorée, explorée lors du nième tour de
+jeu, occupée par le monstre, occupée par un obstacle. Si la case est la sortie,
+l’information n’est pas transmise au chasseur. Le chasseur peut ainsi, peu à
+peu, retracer l’itinéraire du monstre et le débusquer. À son tour, le monstre est
+informé de la case sur laquelle le chasseur a tiré. Le chasseur a gagné s’il trouve
+le monstre. Il perd si le monstre atteint la sortie sans avoir été trouvé.

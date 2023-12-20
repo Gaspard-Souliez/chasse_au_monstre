@@ -1,0 +1,9 @@
+Les connaissances du monstre:
+Le monstre connait impérativement la taille du labyrinthe (représenté ici par l'affichage), et la position de la sortie.
+Ensuite, suivant les paramètres choisit, il peut soit connaitre l'entiereté des cases, ou un certain nombre de case autour de lui, 
+qui lui aussi est définit dans les paramètres.
+
+Les connaissances du chasseur:
+Le chasseur connaît la forme et la dimension du labyrinthe,
+mais il ne connaît rien d’autre : ni l’emplacement de l’entrée, ni celui de la sortie, ni
+l’emplacement des murs.

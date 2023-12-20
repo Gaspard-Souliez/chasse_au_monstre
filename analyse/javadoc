@@ -1,0 +1,1 @@
+javadoc -author -d .\doc\ -cp .\lib\cam-player-api-base.jar file

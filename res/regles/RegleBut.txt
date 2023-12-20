@@ -1,0 +1,17 @@
+Les règles du jeu : 
+
+Pour cette premièrer version, c'est un jeu qui se joue à deux personnes sur le même écran.
+Le premier joueur est un mosntre et l'autre un chasseur.
+Le monstre évolue dans un labyrinthe, avec lequel le chasseur interagit sans pour autant s’y situer.
+
+Le but du jeu pour le chasseur est de trouver le monstre, pour le monstre de
+réussir à atteindre la sortie du labyrinthe depuis l’entrée sans se faire attraper. 
+Un tour de jeu consiste en un coup du monstre suivi d’un coup
+du chasseur.
+
+Les conditions de victoire :
+
+Le monstre gagne s’il réussit à atteindre la sortie du labyrinthe
+sans avoir été attrapé par le chasseur.
+Le chasseur gagne s’il trouve le monstre avant qu’il n’atteigne
+la sortie du labyrinthe.
